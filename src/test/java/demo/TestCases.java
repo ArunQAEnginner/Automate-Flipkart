@@ -24,15 +24,6 @@ import demo.wrappers.Wrappers;
 public class TestCases {
     public static ChromeDriver driver;
 
-    /*
-     * TODO: Write your tests here with testng @Test annotation. 
-     * Follow `testCase01` `testCase02`... format or what is provided in instructions
-     */
-
-     
-    /*
-     * Do not change the provided methods unless necessary, they will help in automation and assessment
-     */
     @Test
     public void testCase01() throws InterruptedException{
 
