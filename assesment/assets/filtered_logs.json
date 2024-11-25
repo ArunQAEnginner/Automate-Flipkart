@@ -1,0 +1,600 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1732531990.794][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1732531994.462][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"131.0.6778.86\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})\",\n         \"userDataDir\": \"C:\\\\Users\\\\K92A6~1.ARU\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir13208_1584069132\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:52167\"\n      },\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"webauthn:virtualAuthenticators\": true\n   },\n   \"sessionId\": \"55467ed03971d3e19f539ff441ba7747\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732531996.504][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1732531996.971][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE MaximizeWindow {\n   \"height\": 736,\n   \"width\": 1382,\n   \"x\": -8,\n   \"y\": -8\n}\n"
+        },
+        {
+            "COMMAND": "[1732531997.093][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND SetTimeouts {\n   \"implicit\": 30000\n}\n",
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1732531997.145][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1732532003.052][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1732532003.140][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@title='Search for Products, Brands and More']\"\n}\n",
+            "RESPONSE": "[1732532003.200][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.C223466A17C4443DFC6C14394DCD14E8.e.117\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532003.242][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND TypeElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.C223466A17C4443DFC6C14394DCD14E8.e.117\",\n   \"text\": \"Washing Machine\",\n   \"value\": [ \"W\", \"a\", \"s\", \"h\", \"i\", \"n\", \"g\", \" \", \"M\", \"a\", \"c\", \"h\", \"i\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1732532003.681][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1732532003.703][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[@aria-label='Search for Products, Brands and More']\"\n}\n",
+            "RESPONSE": "[1732532003.729][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.C223466A17C4443DFC6C14394DCD14E8.e.122\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532003.787][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND IsElementEnabled {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.C223466A17C4443DFC6C14394DCD14E8.e.122\"\n}\n",
+            "RESPONSE": "[1732532003.839][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1732532003.847][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[@aria-label='Search for Products, Brands and More']\"\n}\n",
+            "RESPONSE": "[1732532003.859][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.C223466A17C4443DFC6C14394DCD14E8.e.122\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532003.866][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND ClickElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.C223466A17C4443DFC6C14394DCD14E8.e.122\"\n}\n",
+            "RESPONSE": "[1732532009.419][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1732532009.492][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[text()='Popularity']\"\n}\n",
+            "RESPONSE": "[1732532009.535][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.334\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532009.675][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND IsElementEnabled {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.334\"\n}\n",
+            "RESPONSE": "[1732532009.692][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1732532009.701][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[text()='Popularity']\"\n}\n",
+            "RESPONSE": "[1732532009.715][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.334\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532009.745][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND ClickElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.334\"\n}\n",
+            "RESPONSE": "[1732532010.001][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1732532013.087][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='XQDdHH']\"\n}\n",
+            "RESPONSE": "[1732532013.120][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.393\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.394\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.395\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.396\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.397\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.398\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.399\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.400\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.401\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.402\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.403\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.404\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.405\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.406\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.407\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.408\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.409\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.410\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.411\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1732532013.290][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.393\"\n}\n",
+            "RESPONSE": "[1732532013.340][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732532013.487][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.394\"\n}\n",
+            "RESPONSE": "[1732532013.529][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732532013.573][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.395\"\n}\n",
+            "RESPONSE": "[1732532013.689][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732532013.737][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.396\"\n}\n",
+            "RESPONSE": "[1732532013.759][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532013.870][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.397\"\n}\n",
+            "RESPONSE": "[1732532014.009][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1732532014.091][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.398\"\n}\n",
+            "RESPONSE": "[1732532014.126][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532014.146][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.399\"\n}\n",
+            "RESPONSE": "[1732532014.175][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532014.258][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.400\"\n}\n",
+            "RESPONSE": "[1732532014.473][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1732532014.594][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.401\"\n}\n",
+            "RESPONSE": "[1732532014.624][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532014.938][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.402\"\n}\n",
+            "RESPONSE": "[1732532015.368][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1732532015.415][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.403\"\n}\n",
+            "RESPONSE": "[1732532015.485][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532015.507][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.404\"\n}\n",
+            "RESPONSE": "[1732532015.617][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732532015.773][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.405\"\n}\n",
+            "RESPONSE": "[1732532015.824][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532016.155][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.406\"\n}\n",
+            "RESPONSE": "[1732532016.592][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732532016.800][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.407\"\n}\n",
+            "RESPONSE": "[1732532016.877][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732532016.902][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.408\"\n}\n",
+            "RESPONSE": "[1732532016.946][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532016.973][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.409\"\n}\n",
+            "RESPONSE": "[1732532016.999][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.011][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.410\"\n}\n",
+            "RESPONSE": "[1732532017.026][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.041][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.411\"\n}\n",
+            "RESPONSE": "[1732532017.056][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.063][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.412\"\n}\n",
+            "RESPONSE": "[1732532017.103][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.113][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.413\"\n}\n",
+            "RESPONSE": "[1732532017.164][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.198][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.414\"\n}\n",
+            "RESPONSE": "[1732532017.214][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.220][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.415\"\n}\n",
+            "RESPONSE": "[1732532017.235][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.243][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.416\"\n}\n",
+            "RESPONSE": "[1732532017.260][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.275][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.417\"\n}\n",
+            "RESPONSE": "[1732532017.297][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.313][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.418\"\n}\n",
+            "RESPONSE": "[1732532017.330][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.348][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.419\"\n}\n",
+            "RESPONSE": "[1732532017.363][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.373][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.420\"\n}\n",
+            "RESPONSE": "[1732532017.387][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.397][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E303D1475A8364804D8E3F9D13424887.e.421\"\n}\n",
+            "RESPONSE": "[1732532017.415][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732532017.431][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1732532022.517][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1732532026.556][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@title='Search for Products, Brands and More']\"\n}\n",
+            "RESPONSE": "[1732532026.570][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.3F4E7E564697AD7594068434E4BC8782.e.462\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532026.579][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND TypeElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.3F4E7E564697AD7594068434E4BC8782.e.462\",\n   \"text\": \"iPhone\",\n   \"value\": [ \"i\", \"P\", \"h\", \"o\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1732532026.745][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1732532026.760][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[@aria-label='Search for Products, Brands and More']\"\n}\n",
+            "RESPONSE": "[1732532026.773][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.3F4E7E564697AD7594068434E4BC8782.e.488\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532026.809][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND IsElementEnabled {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.3F4E7E564697AD7594068434E4BC8782.e.488\"\n}\n",
+            "RESPONSE": "[1732532026.840][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1732532026.845][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[@aria-label='Search for Products, Brands and More']\"\n}\n",
+            "RESPONSE": "[1732532026.877][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.3F4E7E564697AD7594068434E4BC8782.e.488\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532026.891][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND ClickElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.3F4E7E564697AD7594068434E4BC8782.e.488\"\n}\n",
+            "RESPONSE": "[1732532030.594][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1732532030.694][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='yKfJKb row']/div[2]//span\"\n}\n",
+            "RESPONSE": "[1732532030.727][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.704\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.705\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.706\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.707\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.708\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.709\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.710\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.711\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.712\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.713\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.714\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.715\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.716\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.717\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.718\"\n} ]\n"
+        },
+        {
+            "COMMAND": "[1732532030.747][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.704\"\n}\n",
+            "RESPONSE": "[1732532030.777][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"16% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532030.790][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.705\"\n}\n",
+            "RESPONSE": "[1732532030.810][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"16% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532030.822][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.706\"\n}\n",
+            "RESPONSE": "[1732532030.844][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"16% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532030.861][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.707\"\n}\n",
+            "RESPONSE": "[1732532030.881][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"15% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532030.896][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.708\"\n}\n",
+            "RESPONSE": "[1732532030.914][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"18% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532030.924][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindChildElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.708\",\n   \"using\": \"xpath\",\n   \"value\": \".//ancestor::div[@class='col col-5-12 BfVC2z']/preceding-sibling::div/div[1]\"\n}\n",
+            "RESPONSE": "[1732532030.957][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.719\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532030.964][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.719\"\n}\n",
+            "RESPONSE": "[1732532031.004][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Apple iPhone 15 Plus (Blue, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.114][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.709\"\n}\n",
+            "RESPONSE": "[1732532031.199][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"18% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.209][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindChildElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.709\",\n   \"using\": \"xpath\",\n   \"value\": \".//ancestor::div[@class='col col-5-12 BfVC2z']/preceding-sibling::div/div[1]\"\n}\n",
+            "RESPONSE": "[1732532031.266][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.720\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532031.318][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.720\"\n}\n",
+            "RESPONSE": "[1732532031.384][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Apple iPhone 15 Plus (Black, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.520][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.710\"\n}\n",
+            "RESPONSE": "[1732532031.578][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"18% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.598][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindChildElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.710\",\n   \"using\": \"xpath\",\n   \"value\": \".//ancestor::div[@class='col col-5-12 BfVC2z']/preceding-sibling::div/div[1]\"\n}\n",
+            "RESPONSE": "[1732532031.617][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.721\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532031.620][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.721\"\n}\n",
+            "RESPONSE": "[1732532031.649][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Apple iPhone 15 Plus (Pink, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.666][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.711\"\n}\n",
+            "RESPONSE": "[1732532031.698][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"18% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.702][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindChildElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.711\",\n   \"using\": \"xpath\",\n   \"value\": \".//ancestor::div[@class='col col-5-12 BfVC2z']/preceding-sibling::div/div[1]\"\n}\n",
+            "RESPONSE": "[1732532031.730][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.722\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532031.780][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.722\"\n}\n",
+            "RESPONSE": "[1732532031.816][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Apple iPhone 15 Plus (Green, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.835][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.712\"\n}\n",
+            "RESPONSE": "[1732532031.864][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"16% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.867][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.713\"\n}\n",
+            "RESPONSE": "[1732532031.887][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"13% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.900][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.714\"\n}\n",
+            "RESPONSE": "[1732532031.918][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"18% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532031.929][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindChildElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.714\",\n   \"using\": \"xpath\",\n   \"value\": \".//ancestor::div[@class='col col-5-12 BfVC2z']/preceding-sibling::div/div[1]\"\n}\n",
+            "RESPONSE": "[1732532031.964][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.723\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532031.983][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.723\"\n}\n",
+            "RESPONSE": "[1732532032.012][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Apple iPhone 14 Plus (Blue, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1732532032.018][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.715\"\n}\n",
+            "RESPONSE": "[1732532032.037][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"21% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532032.048][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindChildElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.715\",\n   \"using\": \"xpath\",\n   \"value\": \".//ancestor::div[@class='col col-5-12 BfVC2z']/preceding-sibling::div/div[1]\"\n}\n",
+            "RESPONSE": "[1732532032.066][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.724\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532032.070][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.724\"\n}\n",
+            "RESPONSE": "[1732532032.112][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Apple iPhone 15 Pro (White Titanium, 256 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1732532032.121][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.716\"\n}\n",
+            "RESPONSE": "[1732532032.151][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"13% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532032.464][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.717\"\n}\n",
+            "RESPONSE": "[1732532032.551][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"26% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532032.563][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindChildElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.717\",\n   \"using\": \"xpath\",\n   \"value\": \".//ancestor::div[@class='col col-5-12 BfVC2z']/preceding-sibling::div/div[1]\"\n}\n",
+            "RESPONSE": "[1732532032.580][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.725\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532032.585][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.725\"\n}\n",
+            "RESPONSE": "[1732532032.603][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Apple iPhone 15 Pro Max (Natural Titanium, 512 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1732532032.617][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.718\"\n}\n",
+            "RESPONSE": "[1732532032.634][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"29% off\"\n"
+        },
+        {
+            "COMMAND": "[1732532032.650][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindChildElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.718\",\n   \"using\": \"xpath\",\n   \"value\": \".//ancestor::div[@class='col col-5-12 BfVC2z']/preceding-sibling::div/div[1]\"\n}\n",
+            "RESPONSE": "[1732532032.667][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.726\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532032.671][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.E655C3446CCD48D1E80D42119DC3B2B6.e.726\"\n}\n",
+            "RESPONSE": "[1732532032.688][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Apple iPhone 15 Pro (White Titanium, 1 TB)\"\n"
+        },
+        {
+            "COMMAND": "[1732532032.699][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1732532035.554][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1732532039.938][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@title='Search for Products, Brands and More']\"\n}\n",
+            "RESPONSE": "[1732532039.953][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.5D27C450870DE951CF8065B20C7BB71C.e.767\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532039.959][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND TypeElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.5D27C450870DE951CF8065B20C7BB71C.e.767\",\n   \"text\": \"Coffee Mug\",\n   \"value\": [ \"C\", \"o\", \"f\", \"f\", \"e\", \"e\", \" \", \"M\", \"u\", \"g\" ]\n}\n",
+            "RESPONSE": "[1732532040.209][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1732532040.362][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[@aria-label='Search for Products, Brands and More']\"\n}\n",
+            "RESPONSE": "[1732532040.381][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.5D27C450870DE951CF8065B20C7BB71C.e.797\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532040.429][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND IsElementEnabled {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.5D27C450870DE951CF8065B20C7BB71C.e.797\"\n}\n",
+            "RESPONSE": "[1732532040.448][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1732532040.477][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[@aria-label='Search for Products, Brands and More']\"\n}\n",
+            "RESPONSE": "[1732532040.496][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.5D27C450870DE951CF8065B20C7BB71C.e.797\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532040.506][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND ClickElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.5D27C450870DE951CF8065B20C7BB71C.e.797\"\n}\n",
+            "RESPONSE": "[1732532043.944][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1732532047.978][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"(//div[text()='Customer Ratings']/parent::div/following-sibling::div//label/div[1])[1]\"\n}\n",
+            "RESPONSE": "[1732532048.014][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.884\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532052.035][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND ClickElement {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.884\"\n}\n",
+            "RESPONSE": "[1732532052.305][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1732532056.334][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732532056.358][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.908\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.909\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.910\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.911\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.912\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.913\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.914\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.915\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.916\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.917\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.918\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.919\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.920\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.921\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.922\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.923\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.924\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.925\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.926\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1732532056.368][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.908\"\n}\n",
+            "RESPONSE": "[1732532056.382][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(146)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.386][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.909\"\n}\n",
+            "RESPONSE": "[1732532056.398][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(80)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.404][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.910\"\n}\n",
+            "RESPONSE": "[1732532056.420][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(2,072)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.428][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.911\"\n}\n",
+            "RESPONSE": "[1732532056.442][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(7,704)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.453][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.912\"\n}\n",
+            "RESPONSE": "[1732532056.467][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(1,310)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.473][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.913\"\n}\n",
+            "RESPONSE": "[1732532056.611][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(111)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.616][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.914\"\n}\n",
+            "RESPONSE": "[1732532056.630][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(1,246)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.634][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.915\"\n}\n",
+            "RESPONSE": "[1732532056.689][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(3,141)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.732][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.916\"\n}\n",
+            "RESPONSE": "[1732532056.746][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(9,071)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.752][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.917\"\n}\n",
+            "RESPONSE": "[1732532056.765][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(1,263)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.772][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.918\"\n}\n",
+            "RESPONSE": "[1732532056.784][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(65)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.789][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.919\"\n}\n",
+            "RESPONSE": "[1732532056.802][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(6)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.808][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.920\"\n}\n",
+            "RESPONSE": "[1732532056.831][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(1,113)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.869][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.921\"\n}\n",
+            "RESPONSE": "[1732532056.883][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(159)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.890][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.922\"\n}\n",
+            "RESPONSE": "[1732532056.904][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(7,224)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.909][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.923\"\n}\n",
+            "RESPONSE": "[1732532056.923][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(395)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.927][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.924\"\n}\n",
+            "RESPONSE": "[1732532056.940][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(161)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.944][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.925\"\n}\n",
+            "RESPONSE": "[1732532056.956][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(63)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.960][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.926\"\n}\n",
+            "RESPONSE": "[1732532056.972][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(399)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.977][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.927\"\n}\n",
+            "RESPONSE": "[1732532056.990][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(1,829)\"\n"
+        },
+        {
+            "COMMAND": "[1732532056.993][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.928\"\n}\n",
+            "RESPONSE": "[1732532057.005][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(163)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.008][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.929\"\n}\n",
+            "RESPONSE": "[1732532057.020][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(20)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.024][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.930\"\n}\n",
+            "RESPONSE": "[1732532057.037][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(490)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.041][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.931\"\n}\n",
+            "RESPONSE": "[1732532057.052][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(3,941)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.057][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.932\"\n}\n",
+            "RESPONSE": "[1732532057.069][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(154)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.076][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.933\"\n}\n",
+            "RESPONSE": "[1732532057.089][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(427)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.095][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.934\"\n}\n",
+            "RESPONSE": "[1732532057.107][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(35)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.112][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.935\"\n}\n",
+            "RESPONSE": "[1732532057.124][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(82)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.129][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.936\"\n}\n",
+            "RESPONSE": "[1732532057.141][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(302)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.156][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.937\"\n}\n",
+            "RESPONSE": "[1732532057.168][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(259)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.173][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.938\"\n}\n",
+            "RESPONSE": "[1732532057.185][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(109)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.189][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.939\"\n}\n",
+            "RESPONSE": "[1732532057.202][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(147)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.208][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.940\"\n}\n",
+            "RESPONSE": "[1732532057.220][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(464)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.224][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.941\"\n}\n",
+            "RESPONSE": "[1732532057.235][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(59)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.239][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.942\"\n}\n",
+            "RESPONSE": "[1732532057.251][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(575)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.254][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.943\"\n}\n",
+            "RESPONSE": "[1732532057.265][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(617)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.270][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.944\"\n}\n",
+            "RESPONSE": "[1732532057.282][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(95)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.285][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.945\"\n}\n",
+            "RESPONSE": "[1732532057.297][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(101)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.300][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.946\"\n}\n",
+            "RESPONSE": "[1732532057.312][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(828)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.315][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.947\"\n}\n",
+            "RESPONSE": "[1732532057.326][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"(812)\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.332][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"(//span[text()='(9,071)']/parent::div/preceding-sibling::a)[2]\"\n}\n",
+            "RESPONSE": "[1732532057.353][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.948\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532057.357][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.948\"\n}\n",
+            "RESPONSE": "[1732532057.369][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Thiwa Tea/Milk Lid Cup Unbreakable Double Wall Hot and ...\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.373][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[text()='(9,071)']/parent::div/preceding-sibling::a//img\"\n}\n",
+            "RESPONSE": "[1732532057.392][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.949\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532057.418][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"(//span[text()='(7,704)']/parent::div/preceding-sibling::a)[2]\"\n}\n",
+            "RESPONSE": "[1732532057.437][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.950\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532057.445][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.950\"\n}\n",
+            "RESPONSE": "[1732532057.460][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"SPEACK Coffee Lover's 1st Preferable Choice Sipper Lid ...\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.475][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[text()='(7,704)']/parent::div/preceding-sibling::a//img\"\n}\n",
+            "RESPONSE": "[1732532057.494][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.861\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532057.514][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"(//span[text()='(7,224)']/parent::div/preceding-sibling::a)[2]\"\n}\n",
+            "RESPONSE": "[1732532057.537][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.951\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532057.542][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.951\"\n}\n",
+            "RESPONSE": "[1732532057.554][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Thiwa Coffee and TeaMug gift for Birthday,Couple,Friend...\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.559][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[text()='(7,224)']/parent::div/preceding-sibling::a//img\"\n}\n",
+            "RESPONSE": "[1732532057.581][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.952\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532057.610][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"(//span[text()='(3,941)']/parent::div/preceding-sibling::a)[2]\"\n}\n",
+            "RESPONSE": "[1732532057.628][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.953\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532057.634][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.953\"\n}\n",
+            "RESPONSE": "[1732532057.649][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"Thiwa Steel Coffee Cup with Lid (ABS Plastic Outer) Sta...\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.654][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[text()='(3,941)']/parent::div/preceding-sibling::a//img\"\n}\n",
+            "RESPONSE": "[1732532057.674][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.954\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532057.700][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"(//span[text()='(3,141)']/parent::div/preceding-sibling::a)[2]\"\n}\n",
+            "RESPONSE": "[1732532057.723][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.955\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732532057.727][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND GetElementText {\n   \"id\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.955\"\n}\n",
+            "RESPONSE": "[1732532057.742][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE GetElementText \"SK Prints Magic Ceramic Coffee Mug\"\n"
+        },
+        {
+            "COMMAND": "[1732532057.748][INFO]: [55467ed03971d3e19f539ff441ba7747] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[text()='(3,141)']/parent::div/preceding-sibling::a//img\"\n}\n",
+            "RESPONSE": "[1732532057.778][INFO]: [55467ed03971d3e19f539ff441ba7747] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.24B3534D8A29FCE64FBD38E99AAE2492.d.9DB5B0E369EEEE15161170D9D10B2082.e.956\"\n}\n"
+        }
+    ]
+}
